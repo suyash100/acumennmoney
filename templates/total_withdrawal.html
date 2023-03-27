@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Total_withdrawal Page{% endblock %}
+
+{% block content %}
+<form action="#" method="post">
+    <p>initial_investment:</p>
+    <p><input type="number" name="initial_investment" /></p>
+    <p>withdrawal_amount:</p>
+    <p><input type="number" name="withdrawal_amount" /></p>
+    <p>withdrawal_frequency (Number of Months):</p>
+    <p><input type="number" name="withdrawal_frequency" /></p>
+    <p>inflation_rate:</p>
+    <p><input type="number" step="any" name="inflation_rate" /></p>
+    <p>roi:</p>
+    <p><input type="number" step="any" name="roi" /></p>
+    <p><input type="submit" value="submit" /></p>
+</form>
+{% endblock %} 
